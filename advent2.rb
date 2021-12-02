@@ -54,7 +54,7 @@ def aim_move
         aim = aim - test[1].to_i
       end    
     end
-    
+
     puts x * y
 end
 
