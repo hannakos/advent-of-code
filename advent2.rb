@@ -9,7 +9,7 @@ def move
     end
 
     input.each do |item|
-        # trim text so that direction and number are separated
+        # split text so that direction and number are separated
         str = item.split(/\s/)
         direction_array << str
     end
@@ -39,7 +39,7 @@ def aim_move
     end
 
     input.each do |item|
-        # trim text so that direction and number are separated
+        # split text so that direction and number are separated
         str = item.split(/\s/)
         direction_array << str
     end
